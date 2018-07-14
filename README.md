@@ -69,8 +69,6 @@ Fully convolutional networks, or FCNs, are powerful tools in semantic segmantati
 
 ![fully convolutional network][fcn]
 
-(Image credit: http://cvlab.postech.ac.kr/research/deconvnet/)
-
 Structurally, a fully convolutional network is comprised of an **encoder** and a **decoder**.
 
 The encoder is a series of standard convolutional layers, the goal of which is to extract features from an image, as in a traditional convolutional neural network. Often, encoders for fully convolutional networks are taken from VGG or ResNet, being pre-trained on ImageNet (another example of the power of [transfer learning, another project I worked on](https://github.com/dinoboy197/CarND-Transfer-Learning-Lab).)
